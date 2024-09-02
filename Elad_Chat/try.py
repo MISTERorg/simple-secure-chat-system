@@ -1,0 +1,1 @@
+HOST = str(input('[+] Enter Destination IP   : '))
