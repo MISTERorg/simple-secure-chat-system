@@ -1,15 +1,14 @@
 # CLIENT CODE
-# Update 1.1 AES Encryption Now Included :p
 # AES Block Cipher 16 bytes block size as supported by pyaes
 # Server Code Must Be Running Before Starting Client or Connection will be refused
-# Author : xtreme.research@gmail.com
-
+# github : https://github.com/MISTERorg/simple-secure-chat-system 
+# email : eladdaudet1918@gmail.com
 import os
 try:
     import pyaes
 except ImportError:
     print("Install pyaes library!")
-    print("windows : python -m pip insatll pyaes")
+    print("windows : python -m pip install pyaes")
     print("linux   : pip install pyaes ")
     exit()
 import socket
